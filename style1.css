@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Railway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+@font-face {
+    font-family: fa-brands;
+    src: url(webfonts/fa-brands-400.woff) format(woff),
+    url(webfonts/fa-brands-400.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: fa-brands;
+}
+
+html, body {
+    box-sizing: content-box;
+    font-family: Railway;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.header{
+    background-color: aquamarine;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color:red;
+}
+
+.nav a:hover{
+    background-color: orange;
+}
+
+.mnav{
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: lighter;
+    background-color: aquamarine;
+    border-bottom: 1px solid rgba(0,255,0);
+} 
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    font-family: fa-brands;
+    font-weight: normal;
+    color: hsl(240, 100%, 25%);
+}
+
+.cont{
+    margin: 1em;
+}
+
+.con{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 1.5em
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: 1000;
+    color: red;
+    text-align: center;
+    font-size: 2.5em;
+}
+.styleimg{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 60%;
+}
+footer{
+    background-color: lightseagreen;
+    color: antiquewhite;
+    padding: .25em 0;
+}
+
+.mfooter{
+    display:flex;
+    align-items: center;
+}
+
+
+.mfooter ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li  {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}

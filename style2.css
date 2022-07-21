@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Railway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania'); 
+
+@font-face {
+    font-family: fa-brands;
+    src: url(webfonts/fa-brands-400.woff) format(woff),
+    url(webfonts/fa-brands-400.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Railway;
+    color: white;
+}
+
+html, body {
+    background-color: rgba(0, 120, 255, .9);
+    background-image: url(pics/IMG-20210227-WA0013.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: orange;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .45);
+} 
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, .7);
+    background-image: url(pics/IMG-20210724-WA0030.jpg);
+    background-blend-mode: multiply;
+    background-size: contain;
+    padding-bottom: 30px;
+}
+
+.band-name{
+     text-align: center;
+     margin: 0;
+     font-size: 4em;
+     font-family: fa-brands;
+     font-weight: normal;
+     color: whitesmoke;
+}
+
+.band-name-large{
+    font-size: 7em;
+}
+
+.cont{
+    margin: 1em;
+}
+
+
+/*container */
+.con{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 1.5em
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: 1000;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.but1 {
+    border-radius: 120px;
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer; 
+}
+
+.but-h{
+    margin: .5em 0% 2em 50%;
+    color: white;
+    border: 2px solid aquamarine;
+    background-color: rgba(0, 120, 255, .1);
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.but-h a:hover{
+    background-color: rgba(0, 120, 255, .3);
+}
+
+.but-h a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.but a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.but {
+    border-radius: 10px;
+    color: white;
+    border: 2px solid aquamarine;
+    background-color: rgba(0, 120, 255, .1);
+    font-weight: bold;
+    font-weight: lighter;
+}
+
+.but2 {
+  border-radius: 50%;
+  color: aquamarine;
+}
+
+.but2 a {
+    color: aquamarine;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-weight: lighter;
+}
+
+.but-play {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 4em;
+    color: aquamarine;
+    background-color: rgba(0, 120, 255, .1);
+}
+
+.but-play:hover{
+    background-color: rgba(0, 120, 255, .3);
+}
+.tour-row{
+    border: 1px solid black;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour{
+    padding-left: .5em;
+    display: inline-block;
+}
+
+.tour1{
+    font-weight: bold;
+    font-size: larger;
+    width: 25%;
+}
+
+.tour2{
+    font-family: Railway;
+    font-style: italic;
+    width: 55%;
+}
+.tour3{
+    max-width: 15%;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: .4em;
+    font-weight: bold;
+}
+.tour3:hover{
+    background-color: rgba(0, 120, 255, .1);
+}
+footer{
+    background-color: lightseagreen;
+    color: antiquewhite;
+    padding: .25em 0;
+}
+
+.mfooter{
+    display:flex;
+    align-items: center;
+}
+
+.band{
+    font-size: 2em;
+    font-family: Railway;
+}
+.mfooter ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.wrap-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.imgstyle{
+    height: 260px;
+}
+
+.title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.item{
+    margin: 40px;
+}
+
+.price{
+    flex-grow: 1;
+    color: aquamarine;
+}
+.details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.itembut{
+    background-color: black;
+}
+
+.butnew{
+    margin: 50px auto 50px auto;
+    display: block
+}
